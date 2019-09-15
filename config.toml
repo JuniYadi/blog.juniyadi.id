@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "https://blog.juniyadi.id/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = "blogjy"
