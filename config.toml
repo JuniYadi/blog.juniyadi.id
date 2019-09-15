@@ -1,0 +1,66 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "Blog Juni Yadi"
+  subtitle    = "MY BLOG MY INSPIRATION"
+  copyright   = "© 2018-2019"
+
+  cover       = "header/galaxy.jpg"
+  description = "MY BLOG MY INSPIRATION"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = [
+      "/built/screen.css"
+  ]
+  RSSLink = "/post/index.xml"
+
+  twitterName = "blogjuniyadi"
+  fbName = "YadiYadhiApriyadi"
+  githubName = "JuniYadi"
+  linkedinName = ""
+  mediumName = "juniyadi"
+
+  logo = ""
+  orgName = "Premium Fast Network"
+  orgWebsite = "https://www.premiumfast.net"
+  orgDescription = "Stay Connected Virtualy With Us"
+
+  author = "Juni Yadi"
+  authorAvatar = "https://avatars1.githubusercontent.com/u/31454084?s=460&v=4"
+  authorLocation = "Surabaya, ID"
+  authorWebsite = "https://juniyadi.id"
+  authorDescription = "Sysadmin (Linux/Windows) & Junior Web Developer."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "About"
+  url = "/categories/about/"
+  weight = 100
+
+[[menu.main]]
+  name = "Food"
+  url = "/tags/golang/"
+  weight = 99
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
