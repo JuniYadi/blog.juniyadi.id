@@ -3,7 +3,7 @@ theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = "blogjy"
 paginate        = 6
-SectionPagesMenu = "main"
+#SectionPagesMenu = "main"
 canonifyurls    = true
 
 [params]
@@ -56,11 +56,16 @@ canonifyurls    = true
   weight = 100
 
 [[menu.main]]
-  name = "Food"
-  url = "/tags/golang/"
-  weight = 99
+  name = "Android"
+  url = "/categories/android/"
+  weight = 100
 
 [[menu.main]]
-  name = "External"
-  url = "https://google.com/"
-  weight = 95
+  name = "PHP"
+  url = "/tags/php/"
+  weight = 100
+
+# [[menu.main]]
+#   name = "Premium Fast Network"
+#   url = "https://premiumfast.net/"
+#   weight = 95
