@@ -4,7 +4,7 @@ date = "2018-12-01T19:46:00+00:00"
 image = "/2019/Software-atau-Addons-Browser-Rekomendasi-Untuk-Programer.jpg"
 nomenu = "main"
 tags = ["Software", "Dasar", "Addons Browser"]
-title = "Rekomendasi Software Editor atau Addons Browser Untuk Programer (Front/Back End)"
+title = "Rekomendasi Software Editor atau Addons Browser Untuk Programer (Front atau Back End)"
 type = "Post"
 
 +++
